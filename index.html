@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Touch enabled jQuery plugin that lets you create beautiful responsive carousel slider.">
+    <meta name="author" content="David Deutsch">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css'>
+    <title>
+     Kyrgyz sport TV
+    </title>
+<!-- Icon --> 
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css'><link rel="stylesheet" href="nav/style.css">
+ <!-- Icon -->    
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Шрифт -->    
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">  
+ <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <!-- Bootstrap script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+<!-- Меню --> 
+ <nav class="navbar navbar-expand-custom navbar-mainbg n-navbar">
+        <a class="navbar-brand navbar-logo" href="index.html"><img src="img/logow.png"></a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#" href="javascript:void(0);"><i class="fas fa-regular fa-house-damage"></i>Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-raspis" href="javascript:void(0);"><i class="far fa-calendar"></i>Расписание</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-project" href="javascript:void(0);"><i class="fas fa-tasks"></i>Проекты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-anonsy" href="javascript:void(0);"><i class="fas fa-bullhorn"></i>Анонсы</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-stream" href="javascript:void(0);"><i class="fas fa-television"></i>Наши трансляции</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-partners" href="javascript:void(0);"><i class="far fa-handshake"></i>Наши партнеры</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#n-about" href="javascript:void(0);"><i class="fas fa-info"></i>О нас</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Слайдер -->
+ <div class="n-slider">
+      <div class="large-12 columns">          
+          <!-- <h3>slide 3</h3> -->
+          <div class="owl-carousel carousel-3 n-owl-carousel">
+            <div class="item">
+              <!-- <h2>Swipe</h2> -->
+              <img src="./img/slide/slide-2.jpg">
+              <!-- <iframe style="z-index: 105;" width="100%" height="800px" src="https://www.youtube.com/embed/5qap5aO4i9A?autoplay=1&controls=0" title="YouTube video player" frameborder="0" 
+              allowfullscreen></iframe> -->
+            </div>
+            <div class="item">
+              <!-- <h2>Swipe</h2> -->
+              <img src="./img/slide/slide-1.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Swipe</h2> -->
+              <img src="./img/slide/slide-3.jpg">
+            </div>
+          </div>
+        </div>
+        <div class="live">
+          <img src="img/live.png">
+        </div>
+    </div>
+    <script>
+      var owl = $('.carousel-3');
+      owl.owlCarousel({
+        margin: 10,
+        // autoplay:true,
+        // autoplaySpeed: 1500,
+        // autoplayTimeout: 10000,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      })
+    </script>
+
+<!-- Расписание -->
+    <div id="n-raspis" class="home-demo n-schedule">
+      <div class="text-frame">Расписание</div>
+      <div class="row">
+        <div class="large-12 columns">
+         <!-- <h3>slide 1</h3> -->
+          <div class="owl-carousel carousel-1 owl-theme n-carousel-btn">
+            <div class="item">
+             <!-- <h2>Swipe</h2> -->
+              <img src="./img/schedule/raspis-1.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/schedule/raspis-3.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/schedule/raspis-5.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/schedule/raspis-6.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.carousel-1');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      })
+    </script>
+    
+<!-- Проекты -->
+    <div class="home-demo n-project" id="n-project">
+      <div class="text-frame">Проекты</div>
+      <div class="row">
+        <div class="large-12 columns">
+         <!-- <h3>slide 1</h3> -->
+          <div class="owl-carousel carousel-1 owl-theme n-carousel-btn">
+            <div class="item">
+             <!-- <h2>Swipe</h2> -->
+              <img src="./img/projects/project-1.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/projects/project-2.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/projects/project-3.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.carousel-1');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 3
+          }
+        }
+      })
+    </script>
+
+<!-- Анонсы -->
+    <div class="home-demo n-anonsy" id="n-anonsy">
+      <div class="text-frame">Анонсы</div>
+      <div class="row">
+        <div class="large-12 columns">
+         <!-- <h3>slide 1</h3> -->
+          <div class="owl-carousel carousel-1 owl-theme n-carousel-btn">
+            <div class="item">
+             <!-- <h2>Swipe</h2> -->
+              <img src="./img/anonsy/anonsy-1.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/anonsy/anonsy-2.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/anonsy/anonsy-3.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/anonsy/anonsy-4.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.carousel-1');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      })
+    </script>
+
+<!-- Транляции -->
+    <div class="home-demo n-stream" id="n-stream">
+      <div class="text-frame-long">Наши трансляции</div>
+      <div class="row">
+        <div class="large-12 columns">
+         <!-- <h3>slide 1</h3> -->
+          <div class="owl-carousel carousel-1 owl-theme n-carousel-btn">
+            <div class="item stream-text">
+             <!-- <h2>Swipe</h2> -->
+              <img src="./img/streams/stream-1.jpg">
+              <button class="stream-btn">Футбол</button>
+            </div>
+            <div class="item stream-text">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/streams/stream-2.jpg">
+              <button class="stream-btn">Футзал</button>
+            </div>
+            <div class="item stream-text">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/streams/stream-3.jpg">
+              <button class="stream-btn">Волейбол</button>
+            </div>
+            <div class="item stream-text">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/streams/stream-4.jpg">
+              <button class="stream-btn">Хоккей</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.carousel-1');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      })
+    </script>
+    
+<!-- Наши партнеры -->
+    <div class="home-demo n-partners" id="n-partners" >
+      <div class="text-frame-long">Наши партнеры</div>
+      <div class="row">
+        <div class="large-12 columns">
+         <!-- <h3>slide 1</h3> -->
+          <div class="owl-carousel carousel-1 owl-theme n-carousel-btn">
+            <div class="item">
+             <!-- <h2>Swipe</h2> -->
+              <img src="./img/partners/partners-1.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/partners/partners-2.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/partners/partners-3.jpg">
+            </div>
+            <div class="item">
+              <!-- <h2>Drag</h2> -->
+              <img src="./img/partners/partners-4.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var owl = $('.carousel-1');
+      owl.owlCarousel({
+        margin: 10,
+        loop: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 2
+          },
+          1000: {
+            items: 4
+          }
+        }
+      })
+    </script> 
+
+<!-- О нас -->   
+ <footer id="n-about">
+  <div class="footer">
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-telegram"></a>
+    <a href="#" class="fa fa-whatsapp"></a>
+    <a href="#"> <span>&#169;Тургуналиев Нурболсун</span></a>
+  </div>
+ </footer>
+
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js'></script><script  src="nav/script.js"></script>
+
+<script src="assets/vendors/highlight.js"></script>
+<script src="assets/js/app.js"></script>
+  </body>
+</html>
